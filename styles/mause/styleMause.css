@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: none;
+}
+body{
+    position: relative;
+}
+.circles{
+    position:absolute;
+    border: 1px solid rgb(0, 255, 85);
+    border-radius: 50%;
+    background-color: #00ff4c9d ;
+    top: 0;
+    left: 0;
+    display:none;
+}
+.circle1{
+    height: 20px;
+    width: 20px;
+    transition:all 0.1s ease ;
+}
+.circle2{
+    height:18px;
+    width: 18px;
+    transition:all 0.2s ease ;
+}
+.circle3{
+    height:16px;
+    width: 16px;
+    transition:all 0.3s ease ;
+}
+.circle4{
+    height:14px;
+    width: 14px;
+    transition:all 0.4s ease ;
+}
+.circle5{
+    height:12px;
+    width: 12px;
+    transition:all 0.5s ease ;
+}
